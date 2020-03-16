@@ -1,7 +1,9 @@
-function sayHello() {
-    for(var i = 0; i < 5; i++) {
-        console.log(i);
+class Layout extends React.Component {
+    render() {
+        return (
+            <h1> React Website </h1>
+        );
     }
 }
 
-sayHello();
+ReactDOM.render(<Layout/);
